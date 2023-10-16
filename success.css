@@ -1,0 +1,20 @@
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+h1 { 
+  font: bold 300% Consolas, Monaco, monospace;
+  border-right: .1em solid #ffbc0f;
+  width: 16.5em; 
+  width: 54ch;
+  margin: 6em 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  color: cornsilk;
+  -webkit-animation: typing 7s steps(21, end),
+             blink-caret .5s step-end infinite alternate;
+}
+
+    body {
+       background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(213,54,218,1) 0%, rgba(3,158,203,1) 47%, rgba(0,212,255,1) 100%);
+    }
